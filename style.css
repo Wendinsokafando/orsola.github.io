@@ -1,0 +1,56 @@
+body{
+    background-color: #cdbaba;
+    margin: 2rem;
+}
+a:link{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:visited{ 
+    color: #03021d;
+    text-decoration: none;
+    border: #cdbaba;
+}
+a:active{
+    color: #a07f3c;
+    text-decoration: none;
+    size: 24px;
+    border: #cdbaba;
+}
+
+
+.box{
+    background-color: rgb(231, 187, 128);
+    height: 2rem;    width: 12rem;
+    margin:0.125rem;
+    display:inline-block;
+    text-align: center;
+    font-weight: 800;
+    align-content: center;
+    text-transform: uppercase;
+    color: black;
+    
+}
+.box:hover{
+    background-color: #b8dd81;
+    
+}
+.mar{
+   background-image: url("orso.jpg");
+   background-position: left;
+   background-size: cover;
+   width: 300px;;
+   float: right;
+   height: 800px;
+   margin: auto;
+   }
+.mar1{
+    flex: 1;
+    float: left;
+    color: #040210;
+    margin-top: 5px;
+    width: 500px;
+}
+
+       
+    
